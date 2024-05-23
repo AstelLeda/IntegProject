@@ -1,0 +1,433 @@
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-image: url('R.png');
+        background-size: cover; 
+        background-repeat: no-repeat; 
+    }
+
+    header {
+        background-color: #222; 
+        color: lawngreen;
+        padding: 20px 30px;
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+    }
+
+        header h1 {
+            margin: 10px 0 0 20px;
+            font-size: 3.5em;
+            text-align: left;
+        }
+    
+        .centered-text {
+            text-align: center;
+        }
+        
+    .sign-in-button {
+        background-color: lawngreen;
+        color: black;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 5px;
+        margin-left: 60px;
+    }
+
+        .sign-in-button:hover {
+            background-color: limegreen; 
+        }
+
+    .button-link {
+        text-decoration: none;
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+            nav ul li a {
+                color: lawngreen;
+                text-decoration: none;
+            }
+
+                nav ul li a:hover {
+                    text-decoration: underline;
+                }
+
+    section {
+        padding: 20px;
+        color: white;
+    }
+
+        section h1{
+            margin-left: 20px;
+        }
+
+    .highlight1 {
+        color: lawngreen; 
+    }
+    .highlight2 {
+        color: lawngreen;
+    }
+    .highlight3 {
+        color: lawngreen;
+    }
+
+    section h1 {
+        font-size: 5em;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); /* Adding shadow to section h1 */
+    }
+
+
+    /* For Order Form window */
+    .signup-panel {
+        background-color: rgba(34, 34, 34, 0.9);
+        color: lawngreen;
+        padding: 30px;
+        border-radius: 10px;
+        width: 300px;
+        margin: 50px auto;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    }
+
+        .signup-panel h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .signup-panel form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .signup-panel label {
+            margin-bottom: 10px;
+            font-size: 1.2em;
+        }
+
+        .signup-panel input {
+            margin-bottom: 20px;
+            padding: 10px;
+            font-size: 1em;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .signup-panel .sign-up-button {
+            background-color: lawngreen;
+            color: black;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+            .signup-panel .sign-up-button:hover {
+                background-color: limegreen;
+            }
+
+    .search-form {
+        display: flex;
+        align-items: center;
+    }
+
+        .search-form input[type="text"] {
+            padding: 5px 10px;
+            font-size: 16px;
+            border: 1px solid lawngreen;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+
+        .search-form button {
+            background-color: lawngreen;
+            color: black;
+            border: none;
+            padding: 5px 10px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+            .search-form button:hover {
+                background-color: limegreen;
+            }
+
+.product-collection {
+    padding: 20px;
+    color: white;
+    text-align: center;
+    text-decoration: none; /* Remove underline */
+}
+
+    .product-collection h2 {
+        font-size: 2.5em;
+        margin-bottom: 20px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); /* Adding shadow to section h2 */
+    }
+
+.product {
+    background-color: rgba(34, 34, 34, 0.9);
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    display: inline-block;
+    width: 30%;
+    box-sizing: border-box;
+    vertical-align: top;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+    .product img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .product h3 {
+        margin: 10px 0;
+        color: lawngreen;
+        font-size: 1.5em;
+    }
+
+    .product p {
+        margin: 5px 0;
+        font-size: 1em;
+    }
+
+    .product .price {
+        color: lawngreen;
+        font-weight: bold;
+        font-size: 1.2em;
+    }
+
+/* Your existing CSS styles */
+
+/* Feedback Panel Styles */
+.feedback-panel {
+    background-color: rgba(34, 34, 34, 0.9);
+    color: lawngreen;
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+    margin: 50px auto;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+    .feedback-panel h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .feedback-panel form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .feedback-panel label {
+        margin-bottom: 10px;
+        font-size: 1.2em;
+    }
+
+    .feedback-panel input,
+    .feedback-panel textarea {
+        margin-bottom: 20px;
+        padding: 10px;
+        font-size: 1em;
+        border: none;
+        border-radius: 5px;
+    }
+
+    .feedback-panel button {
+        background-color: lawngreen;
+        color: black;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 5px;
+        text-align: center;
+    }
+
+        .feedback-panel button:hover {
+            background-color: limegreen;
+        }
+
+.order-panel {
+    background-color: rgba(34, 34, 34, 0.9);
+    color: lawngreen;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 50px auto;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    max-width: 600px;
+    text-align: center; 
+}
+
+    .order-panel h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+.order-info {
+    margin-bottom: 20px;
+}
+
+    .order-info label {
+        font-weight: bold;
+    }
+
+.order-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.detail {
+    width: 48%;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .detail {
+        width: 100%;
+    }
+}
+
+/* Success Panel Styles */
+.success-panel {
+    background-color: rgba(34, 34, 34, 0.9);
+    color: lawngreen;
+    padding: 30px;
+    border-radius: 10px;
+    width: 400px;
+    margin: 50px auto;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    text-align: center;
+}
+
+    .success-panel h1 {
+        margin-bottom: 20px;
+        font-size: 2em;
+    }
+
+    .success-panel p {
+        font-size: 1.2em;
+    }
+
+    .success-panel a {
+        color: lawngreen;
+        text-decoration: underline;
+    }
+
+        .success-panel a:hover {
+            text-decoration: underline;
+        }
+
+
+
+    .panel button {
+        background-color: lawngreen;
+        color: black;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 5px;
+        text-align: center;
+    }
+
+        .panel button:hover {
+            background-color: limegreen;
+        }
+
+        .product-wrapper {
+            display: flex;
+            justify-content: center; /* Center align flex items horizontally */
+            margin-bottom: 20px;
+        }
+
+        /* Order List Table */
+
+        section h2 {
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        table {
+            width: 80%;
+            margin: 0 auto;
+            border-collapse: collapse;
+            background-color: rgba(34, 34, 34, 0.9);
+            color: white;
+            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        th {
+            background-color: #333;
+            color: lawngreen;
+            font-weight: bold;
+        }
+        
+        td {
+            background-color: #444;
+        }
+        
+        tr:hover {
+            background-color: #555;
+        }
+        
+        @media screen and (max-width: 768px) {
+            table {
+                width: 100%;
+            }
+        
+            th, td {
+                padding: 10px;
+            }
+        }
+
+        .back-to-menu {
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        .back-to-menu button {
+            background-color: lawngreen;
+            color: black;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            text-align: center;
+            text-decoration: none;
+        }
+        
+        .back-to-menu button:hover {
+            background-color: limegreen;
+        }
+        
